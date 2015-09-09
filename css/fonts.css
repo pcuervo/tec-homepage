@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('../fonts/Gotham-Black.eot');
+    src: url('../fonts/Gotham-Black.eot') format('embedded-opentype'),
+    url('../fonts/Gotham-Black.woff') format('woff'),
+    url('../fonts/Gotham-Black.ttf') format('opentype'),
+    url('../fonts/Gotham-Black.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot') format('embedded-opentype'),
+    url('../fonts/Gotham-Bold.woff') format('woff'),
+    url('../fonts/Gotham-Bold.ttf') format('opentype'),
+    url('../fonts/Gotham-Bold.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamUltra';
+    src: url('../fonts/Gotham-Ultra.eot');
+    src: url('../fonts/Gotham-Ultra.eot') format('embedded-opentype'),
+    url('../fonts/Gotham-Ultra.woff') format('woff'),
+    url('../fonts/Gotham-Ultra.ttf') format('opentype'),
+    url('../fonts/Gotham-Ultra.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot') format('embedded-opentype'),
+    url('../fonts/Gotham-Light.woff') format('woff'),
+    url('../fonts/Gotham-Light.ttf') format('opentype'),
+    url('../fonts/Gotham-Light.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot') format('embedded-opentype'),
+    url('../fonts/Gotham-Book.woff') format('woff'),
+    url('../fonts/Gotham-Book.ttf') format('opentype'),
+    url('../fonts/Gotham-Book.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+

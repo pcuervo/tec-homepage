@@ -1,0 +1,539 @@
+<!doctype html>
+<html>
+	<head>
+
+		<title>Tecnológico de Monterrey</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="css/jquery.jscrollpane.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="[ wrapper ]">
+			<div class="[ seccion seccion-home ][ js-seccion js-seccion-home ]">
+				<video class="[ bg-video ]" id="home-video">
+					<source src="video/video.mp4" type="video/mp4">
+				</video>
+				<div class="[ full-width ][ absolute absolute--top ][ bienvenida-container-opener ]">
+					<a href="#" class="[ js-bienvenida-container-opener ]">
+						<img class="[ block ][ center ][ image-responsive-max ][ margin-bottom--small ]" src="images/cerrar.png" alt="close">
+					</a>
+					<p class="[ sans-uppercase-book sans-uppercase-book--primary kerning--opened ][ margin-bottom ][ center ][ text-center ]">cerrar</p>
+				</div>
+
+				<div class="[ bienvenida-container ][ opened ]">
+					<div class="bienvenida-inner-container">
+						<img class="[ block ][ center ][ logo-bienvenida ][ margin-bottom ]" src="images/logo-bienvenida-01.png">
+						<p class="[ margin-bottom ][ center ][ text-center ]">En el Tecnológico de Monterrey desarrollamos tu potencial profesional y humano porque te ofrecemos el nivel académico, los recursos y los programas académicos de excelencia.</p>
+						<a href="#" class="[ js-bienvenida-container-closer ]">
+							<img class="[ block ][ center ][ image-responsive-max ][ margin-bottom--small ]" src="images/next.png" alt="video">
+						</a>
+						<p class="[ sans-uppercase-book sans-uppercase-book--primary kerning--opened ][ margin-bottom ][ center ][ text-center ]">video</p>
+						<div class="[ text-center ]">
+							<a class="[ inline-block ][ uppercase kerning--opened ][ bienvenida-button ]" href="#">Bienvenido</a>
+						</div>
+					</div>
+					<div class="[ full-width ][ absolute absolute--bottom ]">
+						<img src="images/drag.png" alt="Drag side-ways" class="[ block ][ center ][  ][  ]">
+					</div>
+				</div>
+
+				<!-- =================================================
+				==== NOSOTROS
+				================================================== -->
+				<div class="seccion-nosotros [ js-seccion-nosotros ]">
+					<div class="[ seccion-nosotros-riel ][ cycle-slideshow ]"
+						data-cycle-fx="scrollHorz"
+						data-cycle-timeout="0"
+						data-cycle-speed="650"
+						data-cycle-slides="> .seccion-fondo"
+						data-cycle-next="> .next-button"
+						data-cycle-log="false"
+					>
+						<div class="seccion-fondo" style="background-image: url(images/image4-01.jpg)">
+							<div class="[ screen screen-container ]"></div>
+							<div class="[ container-message ]">
+								<div class="container-imagen"><img src="images/actividades.png"></div>
+								<a class="[ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
+							</div>
+						</div>
+						<div class="seccion-fondo" style="background-image: url(images/image5-01.jpg)">
+							<div class="[ screen screen-container ]"></div>
+							<div class="[ container-message ]">
+								<div class="container-imagen"><img src="images/vidaestudiantil.png"></div>
+								<a class="[ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
+							</div>
+						</div>
+						<div class="seccion-fondo" style="background-image: url(images/image6-01.jpg)">
+							<div class="[ screen screen-container ]"></div>
+							<div class="[ container-message ]">
+								<div class="container-imagen"><img src="images/preparandote.png"></div>
+								<a class="[ kerning ][ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
+							</div>
+						</div>
+						<div class="seccion-fondo" style="background-image: url(images/image7-01.jpg)">
+							<div class="[ screen screen-container ]"></div>
+							<div class="[ container-message ]">
+								<div class="container-imagen"><img src="images/tusinstalaciones.png"></div>
+								<a class="[ kerning ][ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
+							</div>
+						</div>
+						<div class="cycle-pager"></div>
+					</div>
+				</div>
+			</div><!-- home -->
+
+			<div class="[ seccion seccion-cifras ][ js-seccion js-seccion-cifras ]">
+				<div class="[ bloques-informacion ]">
+					<div class="[ bloque bloque-pasos ][ cycle-slideshow ]"
+						data-cycle-slides="> .bloque-slide"
+						data-cycle-fx="scrollHorz"
+						data-cycle-pause-on-hover="true"
+						data-cycle-timeout="2500"
+						data-cycle-speed="650"
+						data-cycle-swipe="true"
+						data-cycle-log="false"
+					>
+						<div class="cycle-pager"></div>
+						<div class="[ bloque-slide ][ js-bloque-pasos-1 ]">
+							<h1>1</h1>
+							<p>Nuevo modelo educativo enfocado en desarrollar líderes con un espíritu emprendedor.</p>
+						</div>
+						<div class="[ bloque-slide ][ js-bloque-pasos-2 ]">
+							<h1>2</h1>
+							<p>El prestigio de la institución.</p>
+						</div>
+						<div class="[ bloque-slide ][ js-bloque-pasos-3 ]">
+							<h1>3</h1>
+							<p>Conecciones con los alumnos, el trabajo y las instituciones.</p>
+						</div>
+						<div class="[ bloque-slide ][ js-bloque-pasos-4 ]">
+							<h1>4</h1>
+							<p>Educación de líderes con un enfoque humanístico.</p>
+						</div>
+					</div>
+					<div class="[ bloque bloque-personas ][ cycle-slideshow ]"
+						data-cycle-slides="> .bloque-slide"
+						data-cycle-fx="scrollHorz"
+						data-cycle-pause-on-hover="true"
+						data-cycle-timeout="2500"
+						data-cycle-speed="650"
+						data-cycle-swipe="true"
+						data-cycle-log="false"
+					>
+						<div class="cycle-pager"></div>
+						<div class="[ bloque-slide ][ bloque-personas-1 ]">
+							<h1>95,124</h1>
+							<p>estudiantes</p>
+						</div>
+						<div class="[ bloque-slide ][ bloque-personas-2 ]">
+							<h1>9,206</h1>
+							<p>profesores</p>
+						</div>
+						<div class="[ bloque-slide ][ bloque-personas-3 ]">
+							<h1>31</h1>
+							<p>campus</p>
+						</div>
+						<div class="[ bloque-slide ][ bloque-personas-4 ]">
+							<h1>19</h1>
+							<p>oficinas<br>internas</p>
+						</div>
+					</div>
+					<div class="[ bloque bloque-resultados ][ cycle-slideshow ]"
+						data-cycle-slides="> .bloque-slide"
+						data-cycle-fx="scrollHorz"
+						data-cycle-pause-on-hover="true"
+						data-cycle-timeout="2500"
+						data-cycle-speed="650"
+						data-cycle-swipe="true"
+						data-cycle-log="false"
+					>
+						<div class="cycle-pager"></div>
+						<div class="[ bloque-slide ][ bloque-resultados-1 ]">
+							<h1>52%</h1>
+							<p>De los alumnos tiene una beca o apoyo financiero.</p>
+						</div>
+						<div class="[ bloque-slide ][ bloque-resultados-2 ]">
+							<h1>51%</h1>
+							<p>De la generación 2014 tuvo una experiencia internacional.</p>
+						</div>
+						<div class="[ bloque-slide ][ bloque-resultados-3 ]">
+							<h1>21%</h1>
+							<p>De los alumnos son socios o fundadores de una compañía después de 6 meses de graduarse.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- =================================================
+			==== OFERTA
+			================================================== -->
+			<div class="[ seccion seccion-oferta ][ js-seccion js-seccion-oferta ][ relative ]">
+				<!-- <div class="[ cut-overlay cut-overlay-left ]">
+					<img src="images/cut-overlay-left.png">
+				</div>
+				<div class="[ cut-overlay cut-overlay-right ]">
+					<img src="images/cut-overlay-right.png">
+				</div> -->
+				<div class="[ seccion-oferta__content ][ full-height ]">
+					<div class="[ clearfix ][ full-height ][ text-center ]">
+						<section class="[ span xmall-4 ][ preparatoria ][ full-height ][ bg-cover ][ relative ]" style="background-image: url('images/preparatoria.jpg')">
+							<div class="[ seccion-oferta__screen ][ bg-cover ]" style="background-image: url(images/screen-preparatoria.png)"></div>
+							<div class="[ seccion-oferta__data ][ transition ]">
+								<span class="[ seccion-oferta__title ]">Preparatoria</span>
+								<span><strong>3</strong> grados</span>
+								<span class="[ margin-bottom ]"><strong>13</strong> campus</span>
+								<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">explorar</a>
+							</div>
+						</section>
+						<section class="[ span xmall-4 ][ profesional ][ full-height ][ bg-cover ][ relative ]" style="background-image: url('images/profesional.jpg')">
+							<div class="[ seccion-oferta__screen ][ bg-cover ]" style="background-image: url(images/screen-profesional.png)"></div>
+							<div class="[ seccion-oferta__data ][ transition ]">
+								<span class="[ seccion-oferta__title ]">Profesional</span>
+								<span><strong>22</strong> carreras</span>
+								<span class="[ margin-bottom ]"><strong>31</strong> campus</span>
+								<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">explorar</a>
+							</div>
+						</section>
+						<section class="[ span xmall-4 ][ posgrado ][ full-height ][ bg-cover ][ relative ]" style="background-image: url('images/posgrado.jpg')">
+							<div class="[ seccion-oferta__screen ][ bg-cover ]" style="background-image: url(images/screen-posgrado.png)"></div>
+							<div class="[ seccion-oferta__data ][ transition ]">
+								<span class="[ seccion-oferta__title ]">Posgrados</span>
+								<span><strong>80</strong> grados</span>
+								<span class="[ margin-bottom ]"><strong>31</strong> campus</span>
+								<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">explorar</a>
+							</div>
+						</section>
+					</div>
+					<div class="[ seccion-oferta-titles ][ closed ]">
+						<div class="[ seccion-oferta-titles-inner ][ xmall-8 ][ center ][ relative ]">
+							<img class="[ absolute absolute--right-top ][ cursor-pointer ][ js-seccion-oferta__content--closer ]" src="images/cerrar-transparent.png" alt="close">
+							<h1>Profesional</h1>
+							<p>Estas son las carreras profesionales que ofrecemos y los campus en donde<br> puedes encontrarlas, revisa cada detalle antes de escoger.</p>
+						</div>
+					</div>
+					<div class="[ content-oferta-container ][ closed ]">
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img1.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Ingeniería industrial</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img2.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Arquitectura</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img3.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Arte digital</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img4.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Agrónomo</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img5.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Desarrollo sustentable</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img6.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Relaciones exteriores</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img7.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Ingeniería en sistemas</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img8.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Derecho</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img9.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Ingeniería mecatrónica</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img10.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Biotecnología</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img11.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Medicina</span>
+							</div>
+						</div>
+						<div class="[ bloque-oferta ][ bg-cover ]" style="background-image: url('images/img12.jpg')">
+							<div class="bloque-oferta-text-container">
+								<span>Psicología</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- =================================================
+			==== CAMPUS
+			================================================== -->
+			<div class="[ seccion seccion-campus ][ js-seccion js-seccion-campus ][ relative ]">
+				<div class="[ square ][ campus__logo ][ bg-cover ]"> </div>
+				<div class="[ square ][ relative ][ campus__img ][ bg-cover ]">
+					<div class="[ campus__screen ][ absolute absolute--top-0 ][ bg-cover ]"></div>
+					<div class="[ seccion-campus__data ][ transition ][ text-center ]">
+						<a class="[ button button--white button--rounded button--hollow ][ inline-block ][ margin-bottom--large ]" href="#">descubrir</a>
+						<p class="[ seccion-campus__title ]">
+							DESCUBRE<br />
+							NUESTROS
+						</p>
+						<span class="[ margin-bottom ]"><strong>Campus</strong></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- =================================================
+			==== PROFESORES
+			================================================== -->
+			<div class="[ seccion seccion-profesores ][ js-seccion js-seccion-profesores ][ relative ]">
+				<div class="[ square ][ relative ][ profesores__img ][ bg-cover ]">
+					<div class="[ profesores__screen ][ absolute absolute--bottom-0 ][ bg-cover ]"></div>
+					<div class="[ seccion-profesores__data ][ transition ][ text-center ]">
+						<p class="[ seccion-profesores__title ]">Conoce a nuestros</p>
+						<span class="[ margin-bottom ]"><strong>profesores</strong></span>
+						<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">conocer</a>
+					</div>
+				</div>
+				<div class="[ square ][ profesores__logo ][ bg-cover ]"></div>
+			</div>
+
+
+			<!-- =================================================
+			==== ÚLTIMAS NOTICIAS TITLE
+			================================================== -->
+			<div class="[ seccion seccion-noticias-title ][ js-seccion js-seccion-noticias-title ][ relative ]">
+				<img class="[ center--full ]" src="images/ultimas-noticias.jpg" alt="">
+			</div>
+
+			<!-- =================================================
+			==== ÚLTIMAS NOTICIAS CONTENT
+			================================================== -->
+			<div class="[ seccion seccion-noticias-content ][ js-seccion js-seccion-noticias-content ][ relative ]">
+				<div class="[ seccion-noticias-content-scrollpane ][ js-seccion-noticias-content-scrollpane ]">
+					<div class="[ noticia ][ row ]">
+						<div class="[ column xmall-5 ]">
+							<img class="[ image-responsive ]" src="images/coparmex.jpg" alt="coparmex">
+						</div>
+						<div class="[ column xmall-7 ]">
+							<p class="[ noticia__title ]">Se unen COPARMEX y TEC de Monterrey</p>
+							<p class="[ noticia__excerpt ]">
+								Juan Pablo Murra detalló que en el Distrito Federal, Guadalajara y Monterrey algunas carreras ya tienen límite.
+							</p>
+							<p class="[ noticia__excerpt ]">
+								“En el DF no pueden acceder más de 50 alumnos a Medicina y  en Monterrey hay 120 lugares. Otra carrera donde hay ese criterio es Ingeniería...
+							</p>
+							<a class="[ noticia__view-all ][ block ][ uppercase text-right ]" href="#">leer más</a>
+						</div>
+					</div>
+
+					<div class="[ noticia ][ row ]">
+						<div class="[ column xmall-5 ]">
+							<img class="[ image-responsive ]" src="images/coparmex.jpg" alt="coparmex">
+						</div>
+						<div class="[ column xmall-7 ]">
+							<p class="[ noticia__title ]">Se unen COPARMEX y TEC de Monterrey</p>
+							<p class="[ noticia__excerpt ]">
+								Juan Pablo Murra detalló que en el Distrito Federal, Guadalajara y Monterrey algunas carreras ya tienen límite.
+							</p>
+							<p class="[ noticia__excerpt ]">
+								“En el DF no pueden acceder más de 50 alumnos a Medicina y  en Monterrey hay 120 lugares. Otra carrera donde hay ese criterio es Ingeniería...
+							</p>
+							<a class="[ noticia__view-all ][ block ][ uppercase text-right ]" href="#">leer más</a>
+						</div>
+					</div>
+
+					<div class="[ noticia ][ row ]">
+						<div class="[ column xmall-5 ]">
+							<img class="[ image-responsive ]" src="images/coparmex.jpg" alt="coparmex">
+						</div>
+						<div class="[ column xmall-7 ]">
+							<p class="[ noticia__title ]">Se unen COPARMEX y TEC de Monterrey</p>
+							<p class="[ noticia__excerpt ]">
+								Juan Pablo Murra detalló que en el Distrito Federal, Guadalajara y Monterrey algunas carreras ya tienen límite.
+							</p>
+							<p class="[ noticia__excerpt ]">
+								“En el DF no pueden acceder más de 50 alumnos a Medicina y  en Monterrey hay 120 lugares. Otra carrera donde hay ese criterio es Ingeniería...
+							</p>
+							<a class="[ noticia__view-all ][ block ][ uppercase text-right ]" href="#">leer más</a>
+						</div>
+					</div>
+
+					<div class="[ noticia ][ row ]">
+						<div class="[ column xmall-5 ]">
+							<img class="[ image-responsive ]" src="images/coparmex.jpg" alt="coparmex">
+						</div>
+						<div class="[ column xmall-7 ]">
+							<p class="[ noticia__title ]">Se unen COPARMEX y TEC de Monterrey</p>
+							<p class="[ noticia__excerpt ]">
+								Juan Pablo Murra detalló que en el Distrito Federal, Guadalajara y Monterrey algunas carreras ya tienen límite.
+							</p>
+							<p class="[ noticia__excerpt ]">
+								“En el DF no pueden acceder más de 50 alumnos a Medicina y  en Monterrey hay 120 lugares. Otra carrera donde hay ese criterio es Ingeniería...
+							</p>
+							<a class="[ noticia__view-all ][ block ][ uppercase text-right ]" href="#">leer más</a>
+						</div>
+					</div>
+
+					<div class="[ noticia ][ row ]">
+						<div class="[ column xmall-5 ]">
+							<img class="[ image-responsive ]" src="images/coparmex.jpg" alt="coparmex">
+						</div>
+						<div class="[ column xmall-7 ]">
+							<p class="[ noticia__title ]">Se unen COPARMEX y TEC de Monterrey</p>
+							<p class="[ noticia__excerpt ]">
+								Juan Pablo Murra detalló que en el Distrito Federal, Guadalajara y Monterrey algunas carreras ya tienen límite.
+							</p>
+							<p class="[ noticia__excerpt ]">
+								“En el DF no pueden acceder más de 50 alumnos a Medicina y  en Monterrey hay 120 lugares. Otra carrera donde hay ese criterio es Ingeniería...
+							</p>
+							<a class="[ noticia__view-all ][ block ][ uppercase text-right ]" href="#">leer más</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="level-01">
+				<div class="menu-header-container">
+					<a class="open" href="#"><img src="images/hamburguesa.png"></a>
+					<ul>
+						<li><a class="menu-button first close-button" href="#"></a></li>
+						<li><a class="menu-button profile-button" href="#"></a></li>
+						<li class="[ menu-button mail-button ][ cursor-pointer ]">
+							<div class="[ modal ][ drop-shadow ]">
+								<img class="[ image-responsive ]" src="images/messagesimage.png">
+							</div>
+						</li>
+						<li class="[ menu-button chat-button ][ cursor-pointer ]">
+							<div class="[ modal ][ drop-shadow ]">
+								<img class="[ image-responsive ]" src="images/chatimage.png">
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="scroll-pane menu-container">
+					<div class="[ menu-content ][ js-menu-content ]">
+						<div class="[ buscador ][ margin-bottom--large margin-left--large ][ js-buscador ]">
+							<input type="text">
+						</div>
+						<ul class="[ margin-bottom ]">
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ nosotros ][ js-menu-scroll ]" data-seccion="nosotros" href="#">Nosotros</a></li>
+							<span class="[ separator ][ margin-top-bottom ]"></span>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ numeros ][ js-menu-scroll ]" data-seccion="cifras" href="#">Cifras</a></li>
+							<span class="[ separator ][ margin-top-bottom ]"></span>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ educacion ][ js-menu-scroll ]" data-seccion="oferta" href="#">Oferta<br>educativa</a></li>
+							<span class="[ separator ][ margin-top-bottom ]"></span>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ campus ][ js-menu-scroll ]" data-seccion="campus" href="#">Campus</a></li>
+							<span class="[ separator ][ margin-top-bottom ]"></span>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ servicios ][ js-menu-scroll ]" data-seccion="profesores" href="#">Nuestros<br>profesores</a></li>
+							<span class="[ separator ][ margin-top-bottom ]"></span>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ emprendimiento ]" href="#">Emprendimiento</a></li>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ admision ]" href="#">Admisión</a></li>
+							<li class=""><a class="[ transition ][ padding-top-bottom ][ inicia ][ js-menu-scroll ]" data-seccion="noticias-title" href="#">Noticias</a>
+						</ul>
+						<div class="[ agendar-cita ][ margin-bottom--large ][ js-agendar-cita ]">
+							<img class="[ block ][ center ][ margin-bottom--small ]" src="images/aplicar.jpg">
+							<img class="[ block ][ center ]" src="images/agendar.jpg">
+						</div>
+						<div class="[ social ][ margin-bottom--large ][ js-social ]">
+							<div class="[ row ][ xmall-10 ][ center ]">
+								<a class="[ column xmall-2 ]" href="#"><img class="[ block ][ center ]" src="images/f_azul.png"></a>
+								<a class="[ column xmall-2 ]" href="#"><img class="[ block ][ center ]" src="images/tw_azul.png"></a>
+								<a class="[ column xmall-2 ]" href="#"><img class="[ block ][ center ]" src="images/inst_azul.png"></a>
+								<a class="[ column xmall-2 ]" href="#"><img class="[ block ][ center ]" src="images/g+_azul.png"></a>
+								<a class="[ column xmall-2 ]" href="#"><img class="[ block ][ center ]" src="images/rep_azul.png"></a>
+								<a class="[ column xmall-2 ]" href="#"><img class="[ block ][ center ]" src="images/in_azul.png"></a>
+							</div>
+						</div>
+					</div><!-- menu-content -->
+				</div>
+			</div>
+			<span class="logo"></span>
+			<span class="tecnologico-monterrey"><img src="images/tecnologico-monterrey.png"></span>
+		</div>
+		<div class="social-bar">
+			<div class="social-bar-inner-container horizontal-only">
+				<div class="social-bar-riel">
+					<div class="social-bar-block">
+						<img src="images/feedfb.jpg">
+					</div>
+					<div class="social-bar-block">
+						<img src="images/feedinstagram.jpg">
+					</div>
+					<div class="social-bar-block">
+						<ul class="[ footer-map ]">
+							<li><a class="otro-bold" href="#">TEC SALUD</a></li>
+							<span>|</span>
+							<li><a class="otro-bold" href="#">TEC INVESTIGACIÓN</a></li>
+							<span>|</span>
+							<li><a class="otro-bold" href="#">SORTEOS TEC</a></li>
+							<span>|</span>
+							<li><a class="otro-bold" href="#">EXATEC</a></li>
+						</ul>
+						<br>
+						<p>Ave. Eugenio Garza Sada 2501 Sur Col. Tecnológico C.P. 64840<br>Monterrey, Nuevo León, México | Tel. +52 (81) 8358-2000<br>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México. 2015</p>
+						<ul class="[ footer-avisos ]">
+							<li><a href="#">Aviso Legal</a></li>
+							<span>|</span>
+							<li><a href="#">Políticas de privacidad</a></li>
+							<span>|</span>
+							<li><a href="#">Aviso de privacidad</a></li>
+							<span>|</span>
+							<li><a href="#">Sobre el sitio</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="mas"><img class="close-plus" src="images/close-plus.png"></div>
+		</div>
+		<footer>
+			<script>
+
+				var bg01_img = new Image();
+				bg01_img.src = "images/image8-01.jpg";
+
+				var bg02_img = new Image();
+				bg02_img.src = "images/image9-01.jpg";
+
+				var bg03_img = new Image();
+				bg03_img.src = "images/image10-01.jpg";
+
+				var bg04_img = new Image();
+				bg04_img.src = "images/image11-01.jpg";
+
+			</script>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+			<script src="js/jquery.jscrollpane.js"></script>
+			<script src="js/jquery.mousewheel.js"></script>
+			<script src="js/mwheelIntent.js"></script>
+
+			<script src="js/backgroundFullImage.js"></script>
+			<script src="js/backgroundFullImage01.js"></script>
+			<script src="js/counter.js"></script>
+			<script src="js/sidebar.js"></script>
+			<script src="js/seccion_home.js"></script>
+			<script src="js/seccion_oferta.js"></script>
+			<script src="js/plugins.js"></script>
+			<script src="js/com.js"></script>
+		</footer>
+	</body>
+</html>
