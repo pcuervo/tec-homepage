@@ -8,28 +8,12 @@
         var messagesOpened = false;
         var descripcionOpened = false;
 
-        $('body').overscroll({
-            showThumbs: false,
-            direction: 'horizontal',
-            wheelDirection: 'horizontal',
-            cancelOn: '.js-seccion-noticias-content-scrollpane',
-        });
-
-       //  $("body").mousewheel(function(event, delta) {
-       //    this.scrollLeft -= (delta * 5);
-       //    event.preventDefault();
-       // });
+        $("body").mousewheel(function(event, delta) {
+          this.scrollLeft -= (delta * 2);
+          event.preventDefault();
+       });
 
         $('.sidebar').sidebar();
-
-        $('.seccion-home').seccion_home({
-            video : $('#home-video'),
-                w : 1920,
-                h : 1080,
-                loop: true
-        });
-
-        $('.seccion-oferta').seccion_oferta();
 
         $('.menu-container').css({'height':$(window).height() - 150 - 16 + 'px'}).jScrollPane({
             'showArrows': false,
@@ -50,7 +34,6 @@
         });
 
         $('.mas').click(function(){
-
             if ($socialBarOpened) {
                 $socialBarOpened = false;
                 $(this).find('.close-plus').removeClass('rotate');
@@ -68,11 +51,9 @@
         });
 
         $('.mail-button').click(function(event){
-
             if (messagesOpened) {
                 $('.chat-button').trigger('click');
             }
-
             if (!chatOpened) {
                 chatOpened = true;
                 $(this).children('.modal').css({'display':'block','opacity':'0'}).animate({'top':'110px', 'opacity':'1'}, 200, 'easeOutQuint');
@@ -146,7 +127,7 @@
                 'dragBackgroundColor': 'rgba(255, 255, 255, 0.6)'
             });
 
-            $('.wrapper').height( $(window).height() );
+            $('.wrapper').height( $(window).height() - 80 - 16 );
 
             $('.js-seccion-noticias-content-scrollpane').jScrollPane({
                 'showArrows': false,
