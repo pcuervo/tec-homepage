@@ -326,6 +326,7 @@ input:focus {
  * Height Partials
 **/
 
+.one-half{ height: 50%; }
 .one-third{ height: 33.3333%; }
 .one-fourth{ height: 25%; }
 .one-fifth{ height: 20%; }
@@ -462,13 +463,29 @@ input:focus {
 }
 
 /**
- * Geometric
+ * Absolute size
 **/
+.square, .rectangle{
+	overflow: hidden;
+}
 
 .square{
-	width: 100%; height: 50%;
-	overflow: hidden;
-	position: relative;
+	float: left;
+}
+
+.square--big{
+	width: 50%;
+	height: 100%;
+}
+
+.square--small{
+	width: 25%;
+	height: 50%;
+}
+
+.rectangle{
+	width: 50%;
+	height: 50%;
 }
 
 /**
@@ -871,9 +888,34 @@ header{
 	bottom: 0;
 }
 
-.seccion-profesores{}
+.seccion-conocenos{
+}
 
-.seccion-campus{}
+.seccion-conocenos__data{
+	width: 90%;
+	padding: 20px; border: 10px solid #fff;
+	overflow: hidden;
+}
+
+.seccion-conocenos__title{
+	margin: 0;
+	font-size: 40px; font-family: 'GothamLight';
+	color: #fff;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.seccion-conocenos__title strong{
+	font-family: 'GothamUltra';
+}
+
+.seccion-conocenos__button{
+	position: absolute; bottom: -50px;
+}
+
+.seccion-admisiones .sub-seccion{ background-image: url('../images/profesores-img.jpg'); }
+.seccion-profesores .sub-seccion{ background-image: url('../images/profesores-img.jpg'); }
+.seccion-campus .sub-seccion{ background-image: url('../images/profesores-img.jpg'); }
 
 .seccion-eventos{}
 
@@ -896,6 +938,17 @@ header{
 .sub-seccion--redes a:last-of-type{
 	border: none;
 }
+
+.img-social-01{ background-image: url('../images/social-01.jpg'); }
+.img-social-02{ background-image: url('../images/social-02.jpg'); }
+
+.img-social-03{ background-image: url('../images/social-03.jpg'); }
+.img-social-04{ background-image: url('../images/social-04.jpg'); }
+.img-social-05{ background-image: url('../images/social-05.jpg'); }
+.img-social-06{ background-image: url('../images/social-06.jpg'); }
+
+.img-social-07{ background-image: url('../images/social-07.jpg'); }
+.img-social-08{ background-image: url('../images/social-08.jpg'); }
 
 
 
