@@ -83,20 +83,6 @@
 
         });
 
-        $('.descripcion-oferta h3').click(function(){
-
-            if (!descripcionOpened) {
-                descripcionOpened = true;
-                $('.descripcion-oferta p').css({'height':'100px'});
-                $('.descripcion-oferta h3 img').addClass('rotate-flecha');
-            } else {
-                descripcionOpened = false;
-                $('.descripcion-oferta p').css({'height':'0px'});
-                $('.descripcion-oferta h3 img').removeClass('rotate-flecha');
-            }
-
-        });
-
         $(document).scrollLeft(0);
 
         $(window).resize(function(){

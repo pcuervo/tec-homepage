@@ -9,16 +9,6 @@
 
 		var $this = this;
 		var nosotros = $this.find('.js-seccion-nosotros');
-		// var $video = settings.video;
-
-		// $video[0].oncanplaythrough = function(){
-		// 	this.play();
-		// }
-		// $video[0].onended = function() {
-		// 	if (loop) {
-		// 		this.play();
-		// 	}
-		// }
 
 		var min_w = 300; // minimum video width allowed
 		var vid_w_orig;  // original video dimensions
