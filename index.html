@@ -10,15 +10,15 @@
 	</head>
 	<body>
 		<header>
-			<p class="[ text-center ][ uppercase ]">
-				Da el siguiente paso
-				<a href="#" class="[ button button-hollow button-rounded ]">
+			<p class="[ text-center ][ uppercase ][ call-to-action ]">
+				<span class="[ text-bold ]">Da el siguiente paso</span>
+				<a href="#" class="[ button button--hollow button--rounded button--small button--primary ][ inline-block ]">
 					aplicar
 				</a>
-				<a href="#" class="[ button button-hollow button-rounded ]">
+				<a href="#" class="[ button button--hollow button--rounded button--small button--primary ][ inline-block ]">
 					agendar
 				</a>
-				<a href="#" class="[ button button-hollow button-rounded ]">
+				<a href="#" class="[ button button--hollow button--rounded button--small button--primary ][ inline-block ]">
 					contacto
 				</a>
 			</p>
@@ -27,6 +27,8 @@
 				<img src="images/logo-tec.jpg">
 			</div>
 		</header>
+
+
 		<div class="[ wrapper ]">
 
 			<!-- =================================================
@@ -35,22 +37,25 @@
 			<div class="[ seccion seccion-home seccion--3-3 ][ js-seccion js-seccion-home ]">
 				<div class="[ clearfix ][ full-height ]">
 					<div class="[ sub-seccion span xmall-8 ][ relative ][ overflow-hidden ]">
-						<video class="[ bg-video bg-video-home ][ sub-seccion ]" autoplay loop muted poster="images/video.png">
+						<video autoplay loop muted class="[ bg-video bg-video-home ][ sub-seccion ]">
 							<source src="video/video.mp4" type="video/mp4">
 						</video>
+						<div class="[ seccion-home__screen ][ absolute ][ full-width full-height ]">
+							<img class="[ center--bottom ][ seccion-home__logo ]" src="images/logo-bienvenida-01.png" alt="">
+						</div>
 					</div>
-					<div class="[ sub-seccion span xmall-4 ][  ]">
-						<div class="[ one-fourth ][ bg-cover ]">
-							<p>modelo educativo</p>
+					<div class="[ sub-seccion sub-seccion--divisiones ][ span xmall-4 ][ text-center ]">
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<p class="[ center--full ][ uppercase ]">modelo educativo</p>
 						</div>
-						<div class="[ one-fourth ][ bg-cover ]">
-							<p>prestigio</p>
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<p class="[ center--full ][ uppercase ]">prestigio</p>
 						</div>
-						<div class="[ one-fourth ][ bg-cover ]">
-							<p>network</p>
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<p class="[ center--full ][ uppercase ]">network</p>
 						</div>
-						<div class="[ one-fourth ][ bg-cover ]">
-							<p>sentido humano</p>
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<p class="[ center--full ][ uppercase ]">sentido humano</p>
 						</div>
 					</div>
 				</div>
@@ -64,38 +69,52 @@
 			<div class="[ seccion seccion-cifras seccion--3-3 ][ js-seccion js-seccion-cifras ]">
 				<div class="[ clearfix ][ full-height ]">
 					<div class="[ sub-seccion sub-seccion__titulo sub-seccion__titulo--naranja ][ span xmall-4 ][ relative ][ overflow-hidden ]">
-						<p><strong>Nuestras</strong> cifras</p>
+						<p><span>Nues<wbr>tras</span> <br />ci<wbr>fras</p>
 					</div>
-					<div class="[ sub-seccion ][ bg-cover ][ span xmall-4 ][ relative ][ overflow-hidden ]">
-						<div class="[ one-fourth ][ bg-cover ]">
-							<h1>95,124</h1>
-							<p>estudiantes</p>
+					<div class="[ sub-seccion sub-seccion__numeros ][ bg-cover ][ span xmall-4 ][ relative ][ overflow-hidden ][ text-center ]">
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>95,124</h1>
+								<p>estudiantes</p>
+							</div>
 						</div>
-						<div class="[ one-fourth ][ bg-cover ]">
-							<h1>9,206</h1>
-							<p>profesores</p>
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>9,206</h1>
+								<p>profesores</p>
+							</div>
 						</div>
-						<div class="[ one-fourth ][ bg-cover ]">
-							<h1>31</h1>
-							<p>campus</p>
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>31</h1>
+								<p>campus</p>
+							</div>
 						</div>
-						<div class="[ one-fourth ][ bg-cover ]">
-							<h1>19</h1>
-							<p>oficinas<br>internas</p>
+						<div class="[ one-fourth ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>19</h1>
+								<p>oficinas<br>internas</p>
+							</div>
 						</div>
 					</div>
-					<div class="[ sub-seccion ][ bg-cover ][ span xmall-4 ][ relative ][ overflow-hidden ]">
-						<div class="[ one-third ][ bg-cover ]">
-							<h1>52%</h1>
-							<p>De los alumnos tiene una beca o apoyo financiero.</p>
+					<div class="[ sub-seccion sub-seccion__porcentajes ][ bg-cover ][ span xmall-4 ][ relative ][ overflow-hidden ][ text-center ]">
+						<div class="[ one-third ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>52%</h1>
+								<p>De los alumnos tiene una beca o apoyo financiero.</p>
+							</div>
 						</div>
-						<div class="[ one-third ][ bg-cover ]">
-							<h1>51%</h1>
-							<p>De la generación 2014 tuvo una experiencia internacional.</p>
+						<div class="[ one-third ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>51%</h1>
+								<p>De la generación 2014 tuvo una experiencia internacional.</p>
+							</div>
 						</div>
-						<div class="[ one-third ][ bg-cover ]">
-							<h1>21%</h1>
-							<p>De los alumnos son socios o fundadores de una compañía después de 6 meses de graduarse.</p>
+						<div class="[ one-third ][ bg-cover ][ relative ]">
+							<div class="[ center--full ]">
+								<h1>21%</h1>
+								<p>De los alumnos son socios o fundadores de una compañía después de 6 meses de graduarse.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -107,30 +126,39 @@
 			<div class="[ seccion seccion-oferta seccion--2-3 ][ js-seccion js-seccion-oferta ]">
 				<div class="[ clearfix ][ full-height ]">
 					<div class="[ sub-seccion sub-seccion__titulo sub-seccion__titulo--azul ][ span xmall-6 ][ relative ][ overflow-hidden ]">
-						<p><strong>Oferta</strong> educativa</p>
+						<p><span>O<wbr>fer<wbr>ta</span> <br />e<wbr>du<wbr>ca<wbr>ti<wbr>va</p>
 					</div>
-					<div class="[ sub-seccion ][ bg-cover ][ span xmall-6 ][ relative ][ overflow-hidden ]">
+					<div class="[ sub-seccion ][ bg-cover ][ span xmall-6 ][ relative ][ overflow-hidden ][ text-center ]">
 						<section class="[ preparatoria ][ one-third ][ bg-cover ][ relative ]" style="background-image: url('images/preparatoria.jpg')">
 							<div class="[ seccion-oferta__data ][ transition ]">
 								<span class="[ seccion-oferta__title ]">Preparatoria</span>
-								<span><strong>3</strong> grados</span>
-								<span class="[ margin-bottom ]"><strong>13</strong> campus</span>
+								<div class="[ pleca ]">
+									<hr><span></span><hr>
+								</div>
+								<p><strong>3</strong> grados</p>
+								<p class="[ margin-bottom ]"><strong>13</strong> campus</p>
 								<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">explorar</a>
 							</div>
 						</section>
 						<section class="[ profesional ][ one-third ][ bg-cover ][ relative ]" style="background-image: url('images/profesional.jpg')">
 							<div class="[ seccion-oferta__data ][ transition ]">
 								<span class="[ seccion-oferta__title ]">Profesional</span>
-								<span><strong>22</strong> carreras</span>
-								<span class="[ margin-bottom ]"><strong>31</strong> campus</span>
+								<div class="[ pleca ]">
+									<hr><span></span><hr>
+								</div>
+								<p><strong>22</strong> carreras</p>
+								<p class="[ margin-bottom ]"><strong>31</strong> campus</p>
 								<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">explorar</a>
 							</div>
 						</section>
 						<section class="[ posgrado ][ one-third ][ bg-cover ][ relative ]" style="background-image: url('images/posgrado.jpg')">
 							<div class="[ seccion-oferta__data ][ transition ]">
 								<span class="[ seccion-oferta__title ]">Posgrados</span>
-								<span><strong>80</strong> grados</span>
-								<span class="[ margin-bottom ]"><strong>31</strong> campus</span>
+								<div class="[ pleca ]">
+									<hr><span></span><hr>
+								</div>
+								<p><strong>80</strong> grados</p>
+								<p class="[ margin-bottom ]"><strong>31</strong> campus</p>
 								<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">explorar</a>
 							</div>
 						</section>
@@ -141,9 +169,9 @@
 			<!-- =================================================
 			==== ADMISIONES
 			================================================== -->
-			<div class="[ seccion seccion-oferta seccion--1-3 ][ js-seccion js-seccion-oferta ]">
-				<div class="[ sub-seccion sub-seccion__titulo sub-seccion__titulo--azul ][ xmall-12 ][ relative ][ overflow-hidden ][ bg-cover ]">
-					<div class="[ seccion-profesores__data ][ transition ][ text-center ]">
+			<div class="[ seccion seccion-admisiones seccion--1-3 ][ js-seccion js-seccion-admisiones ]">
+				<div class="[ sub-seccion ][ xmall-12 ][ relative ][ overflow-hidden ][ bg-cover ]">
+					<div class="[ seccion-admisiones__data ][ transition ][ text-center ]">
 						<span class="[ margin-bottom ]"><strong>admisiones</strong></span>
 						<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">ver</a>
 					</div>
@@ -155,10 +183,13 @@
 			==== PROFESORES
 			================================================== -->
 			<div class="[ seccion seccion-profesores seccion--1-3 ][ js-seccion js-seccion-profesores ]">
-				<div class="[ sub-seccion sub-seccion__titulo sub-seccion__titulo--azul ][ xmall-12 ][ relative ][ overflow-hidden ][ bg-cover ]">
+				<div class="[ sub-seccion ][ xmall-12 ][ relative ][ overflow-hidden ][ bg-cover ]">
 					<div class="[ seccion-profesores__data ][ transition ][ text-center ]">
-						<p class="[ seccion-profesores__title ]">Conoce a nuestros</p>
-						<span class="[ margin-bottom ]"><strong>profesores</strong></span>
+						<a class="[ seccion-profesores__title ]">
+							<strong>Conoce a</strong>
+							nuestros
+							<strong>profesores</strong>
+						</a>
 						<a class="[ button button--white button--rounded button--hollow ][ inline-block ]" href="#">conocer</a>
 					</div>
 				</div>
@@ -168,15 +199,15 @@
 			<!-- =================================================
 			==== CAMPUS
 			================================================== -->
-			<div class="[ seccion seccion-profesores seccion--1-3 ][ js-seccion js-seccion-profesores ]">
-				<div class="[ sub-seccion sub-seccion__titulo sub-seccion__titulo--azul ][ xmall-12 ][ relative ][ overflow-hidden ][ bg-cover ]">
+			<div class="[ seccion seccion-campus seccion--1-3 ][ js-seccion js-seccion-campus ]">
+				<div class="[ sub-seccion ][ xmall-12 ][ relative ][ overflow-hidden ][ bg-cover ]">
 					<div class="[ seccion-campus__data ][ transition ][ text-center ]">
 						<a class="[ button button--white button--rounded button--hollow ][ inline-block ][ margin-bottom--large ]" href="#">descubrir</a>
-						<p class="[ seccion-campus__title ]">
-							DESCUBRE<br />
-							NUESTROS
-						</p>
-						<span class="[ margin-bottom ]"><strong>Campus</strong></span>
+						<a class="[ seccion-profesores__title ]">
+							descubre
+							<strong>nuestros</strong>
+							campus
+						</a>
 					</div>
 				</div>
 			</div>
@@ -185,46 +216,23 @@
 			<!-- =================================================
 			==== EVENTOS
 			================================================== -->
-			<div class="[ seccion seccion-home seccion--3-3 ][ js-seccion js-seccion-home ]">
+			<div class="[ seccion seccion-eventos seccion--3-3 ][ js-seccion js-seccion-eventos ]">
 				<div class="[ clearfix ][ full-height ]">
 					<div class="[ sub-seccion sub-seccion__titulo sub-seccion__titulo--negro ][ span xmall-4 ][ relative ][ overflow-hidden ]">
-						<p><strong>Eventos</strong></p>
+						<p><span>E<wbr>ven<wbr>tos</span></p>
 					</div>
 					<div class="[ sub-seccion span xmall-8 ][ relative ][ overflow-hidden ]">
-						<div class="[ seccion-nosotros-riel ][ cycle-slideshow ]"
+						<div class="[ cycle-slideshow ]"
 							data-cycle-fx="scrollHorz"
 							data-cycle-timeout="0"
 							data-cycle-speed="650"
-							data-cycle-slides="> .seccion-fondo"
+							data-cycle-slides="> .cycle-slide"
 							data-cycle-next="> .next-button"
 							data-cycle-log="false"
 						>
-
 							<div class="cycle-pager"></div>
-							<div class="seccion-fondo cycle-slide cycle-slide-active" style="position: absolute; top: 0px; left: 0px; z-index: 100; opacity: 1; background-image: url(http://dev-tec.flockos.com/propuesta04/images/image4-01.jpg);">
-								<div class="[ screen screen-container ]"></div>
-								<div class="[ container-message ]">
-									<div class="container-imagen"><img src="images/actividades.png"></div>
-									<a class="[ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
-								</div>
-							</div><div class="seccion-fondo cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 99; display: none; background-image: url(http://dev-tec.flockos.com/propuesta04/images/image5-01.jpg);">
-								<div class="[ screen screen-container ]"></div>
-								<div class="[ container-message ]">
-									<div class="container-imagen"><img src="images/vidaestudiantil.png"></div>
-									<a class="[ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
-								</div>
-							</div><div class="seccion-fondo cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 97; display: none; background-image: url(http://dev-tec.flockos.com/propuesta04/images/image6-01.jpg);">
-								<div class="[ screen screen-container ]"></div>
-								<div class="[ container-message ]">
-									<div class="container-imagen"><img src="images/preparandote.png"></div>
-									<a class="[ kerning ][ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
-								</div>
-							</div><div class="seccion-fondo cycle-slide" style="position: absolute; top: 0px; left: 0px; z-index: 96; display: none; background-image: url(http://dev-tec.flockos.com/propuesta04/images/image7-01.jpg);">
-								<div class="[ screen screen-container ]"></div>
-								<div class="[ container-message ]">
-									<div class="container-imagen"><img src="images/tusinstalaciones.png"></div>
-									<a class="[ kerning ][ button button--white button--rounded button--hollow ]" href="#">Conocer</a>
-								</div>
+							<div class="[ cycle-slide ][ bg-cover ]">
+
 							</div>
 						</div>
 					</div>
@@ -233,13 +241,36 @@
 
 
 
+			<!-- =================================================
+			==== SOCIAL
+			================================================== -->
+			<div class="[ seccion seccion-social seccion--2-3 ][ js-seccion js-seccion-social ]">
+				<div class="[ clearfix ][ full-height ]">
+					<div class="[ sub-seccion--redes ][ span xmall-2 ][ relative ][ overflow-hidden ]">
+						<a class="[ one-sixth ][ block ][ relative ]" href="#">
+							<img class="[ center--full ]" src="images/f_azul.png" alt="">
+						</a>
+						<a class="[ one-sixth ][ block ][ relative ]" href="#">
+							<img class="[ center--full ]" src="images/f_azul.png" alt="">
+						</a>
+						<a class="[ one-sixth ][ block ][ relative ]" href="#">
+							<img class="[ center--full ]" src="images/f_azul.png" alt="">
+						</a>
+						<a class="[ one-sixth ][ block ][ relative ]" href="#">
+							<img class="[ center--full ]" src="images/f_azul.png" alt="">
+						</a>
+						<a class="[ one-sixth ][ block ][ relative ]" href="#">
+							<img class="[ center--full ]" src="images/f_azul.png" alt="">
+						</a>
+						<a class="[ one-sixth ][ block ][ relative ]" href="#">
+							<img class="[ center--full ]" src="images/f_azul.png" alt="">
+						</a>
+					</div>
+					<div class="[ sub-seccion ][ span xmall-10 ][ relative ][ overflow-hidden ][ bg-cover ]">
 
-
-
-
-
-
-
+					</div>
+				</div>
+			</div>
 
 		</div><!-- wrapper -->
 
@@ -338,37 +369,23 @@
 			<div class="mas"><img class="close-plus" src="images/close-plus.png"></div>
 		</div>
 		<footer>
-			<script>
 
-				var bg01_img = new Image();
-				bg01_img.src = "images/image8-01.jpg";
 
-				var bg02_img = new Image();
-				bg02_img.src = "images/image9-01.jpg";
-
-				var bg03_img = new Image();
-				bg03_img.src = "images/image10-01.jpg";
-
-				var bg04_img = new Image();
-				bg04_img.src = "images/image11-01.jpg";
-
-			</script>
-
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-
-			<script src="js/jquery.jscrollpane.js"></script>
-			<script src="js/jquery.mousewheel.js"></script>
-			<script src="js/mwheelIntent.js"></script>
-
-			<script src="js/backgroundFullImage.js"></script>
-			<script src="js/backgroundFullImage01.js"></script>
-			<script src="js/counter.js"></script>
-			<script src="js/sidebar.js"></script>
-			<script src="js/seccion_home.js"></script>
-			<script src="js/seccion_oferta.js"></script>
-			<script src="js/plugins.js"></script>
-			<script src="js/com.js"></script>
 		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+		<script src="js/jquery.jscrollpane.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/mwheelIntent.js"></script>
+
+		<script src="js/backgroundFullImage.js"></script>
+		<script src="js/backgroundFullImage01.js"></script>
+		<script src="js/counter.js"></script>
+		<script src="js/sidebar.js"></script>
+		<script src="js/seccion_home.js"></script>
+		<script src="js/seccion_oferta.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/com.js"></script>
 	</body>
 </html>

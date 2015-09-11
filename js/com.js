@@ -127,7 +127,7 @@
                 'dragBackgroundColor': 'rgba(255, 255, 255, 0.6)'
             });
 
-            $('.wrapper').height( $(window).height() - 80 - 16 );
+            $('.wrapper').height( $(window).height() - 60 - 16 );
 
             $('.js-seccion-noticias-content-scrollpane').jScrollPane({
                 'showArrows': false,
